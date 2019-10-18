@@ -1,9 +1,8 @@
-<html>
-<head>
-  <title>Login</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
+{% block title %}Login{% endblock %}
+
+{% block body %}
 <form class="form-signin" method="POST">
 
   <h2 class="form-signin-heading">Please Sign In</h2>
@@ -31,7 +30,6 @@
   </button>
 
 </form>
+{% endblock %}
 
-</body>
-</html>
 
