@@ -5,7 +5,7 @@ melon by id.
 
 It reads melon data in from a text file.
 """
-
+import customers
 
 class Melon(object):
     """An Ubermelon Melon type."""
